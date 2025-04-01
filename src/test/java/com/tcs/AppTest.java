@@ -3,7 +3,7 @@ package com.tcs;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
@@ -11,7 +11,7 @@ public class AppTest {
     public static void main(String[] args) {
 
 
-        WebDriver driver = new SafariDriver();
+        WebDriver driver = new ChromeDriver();
 
 
         driver.get("https://www.selenium.dev/selenium/web/web-form.html");
